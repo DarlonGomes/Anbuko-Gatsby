@@ -1,10 +1,13 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
+import { NavBar } from "../../components/molecules";
+import { Text } from "../../components/atoms";
 
 const ProductPage: React.FC<PageProps> = () => {
   return (
    <>
-    <h3>Product</h3>
+   <NavBar/>
+    <Text>Here will be displayed the product</Text>
    </>
   )
 }

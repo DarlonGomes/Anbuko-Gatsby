@@ -2,10 +2,10 @@ import * as React from 'react';
 import './styles.scss';
 
 interface TextProps{
-    content: JSX.Element
+    children: string
 }
-export default function Text ({content} : TextProps){
+export default function Text ({children} : TextProps){
     return(
-        <p>{content}</p>
+        <p className='generaltext'>{children}</p>
     )
 }
