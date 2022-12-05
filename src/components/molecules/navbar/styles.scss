@@ -1,0 +1,14 @@
+@import "../../../scss/reset";
+
+.navbar {
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aqua;
+}
+
+.navbar_logo {
+  width: 32px;
+}
